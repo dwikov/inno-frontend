@@ -1,0 +1,111 @@
+body {
+    color: #1B2021;
+    background-color: #E3DCC2;
+
+}
+
+header {
+    background-color: #E3DCC2;
+    padding: 1em;
+    text-align: center;
+}
+
+footer {
+    background-color: #E3DCC2;
+    width: 100%;
+    padding: 1em 0;
+    text-align: center;
+    align-items: center;
+}
+
+footer>div {
+    display: inline-block;
+    margin: 20px;
+}
+
+
+h2 {
+    display: inline;
+    margin: 20px;
+}
+footer h2 {
+    display: block;
+    margin: 20px;
+}
+
+#exp {
+    list-style-type: disc;
+    width: 100%;
+}
+
+ul h3 {
+    color: #51513D;
+
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    margin: 0% 5%;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#about-me {
+    margin: 1% 30%;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+
+}
+
+#exp {
+    margin: 2.5% 15%;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+
+}
+
+.navigation {
+    padding: 1em;
+    text-align: center;
+    font-size: x-large;
+}
+
+.navigation>a {
+    color: #51513D;
+    text-decoration: double;
+    margin: auto 10%;
+}
+
+.links a {
+
+    text-decoration: double;
+}
+
+.photo {
+    width: 30px;
+    height: 30px;
+    padding: 0 15px;
+}
+
+#random-facts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#random-facts > div {
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+img {
+    width: 50px;
+}
